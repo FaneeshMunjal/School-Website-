@@ -1,0 +1,59 @@
+.about {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border-radius: 99px;
+    text-align-last: center;
+    transition: 400ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.about:hover {
+    font-size: 60px;
+    color: PaleTurquoise;
+}
+
+.quote {
+    color: Navy;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.-by {
+    color: Teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home:hover {
+    font-size: 60px;
+    color: PaleTurquoise;
+}
+
+.home {
+    border-radius: 99px;
+    font-weight: 800;
+    font-size: 60px;
+    color: black;
+    text-decoration: none;
+    block-size: 120px;
+    transition: 100ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    text-align-last: center;
+}
+.colage:hover {
+    font-size: 60px;
+    color: PaleTurquoise;
+}
+
+.collage {
+    border-radius: 99px;
+    font-weight: 800;
+    font-size: 60px;
+    color: black;
+    text-decoration: none;
+    block-size: 120px;
+    transition: 100ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    text-align-last: center;
+}

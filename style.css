@@ -1,0 +1,85 @@
+.title {
+  background-color: rgb(32, 32, 32);
+  background-image: url(schoolmaps.JPG);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  line-height: 100px;
+  text-align-last: center;
+  transition: 400ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.title:hover {
+  line-height: 150px;
+  font-size: 50px;
+}
+
+.moto {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+}
+
+.quote {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.-by {
+  color: aquamarine;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.about {
+  border-radius: 99px;
+  font-weight: 800;
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+  block-size: 120px;
+  transition: 300ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.about:hover {
+  font-size: 80px;
+  block-size: 150px;
+}
+
+.photo_gallery {
+  border-radius: 99px;
+  font-weight: 800;
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+  block-size: 120px;
+  transition: 300ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.photo_gallery:hover {
+  font-size: 80px;
+  block-size: 150px;
+}
+
+.introductionimage {
+  background-position-y: 1000000px;
+  background-image: url(building.jpeg);
+  background-blend-mode: lighten;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+}
+
+.introtext {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 500ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.introtext:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: black;
+}
